@@ -87,6 +87,9 @@ const app = Vue.createApp({
         this.playerHealth += healValue;
       }
     },
+    surrender() {
+      this.winner = "monster";
+    },
   },
 });
 
